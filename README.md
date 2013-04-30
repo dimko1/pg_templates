@@ -1,4 +1,4 @@
 pg_templates
 ============
 
-templates for pg projects
+Just templates for PhoneGap projects.
