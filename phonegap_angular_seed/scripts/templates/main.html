@@ -1,0 +1,17 @@
+<div class="toolbar">
+  <h1 id="pageTitle">Main Menu</h2>
+</div>
+<div >
+	{{message}}
+	<div >
+		       <ul> 
+                     <li><a ng-tap="$navigate.go('/contacts')">Контакты</a></li> 
+                     <li><a ng-tap="$navigate.go('/section/1')">Menu 1</a></li> 
+                     <li><a ng-tap="$navigate.go('/section/2')">Menu 2</a></li> 
+                     <li><a ng-tap="$navigate.go('/section/3')">Menu 3</a></li> 
+                     <li><a ng-tap="$navigate.go('/section/4')">Menu 4</a></li> 
+               </ul>           
+         </div>   
+	<input type='button' value='LogOut' ng-click='logMeOutClicked()'/>
+	
+</div>
